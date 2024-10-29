@@ -31,7 +31,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { header: { title: `Elsony`}, body: { text: `
 *مــرحــبــا بــك/ي* @${mentionId.split('@')[0]}
 ╗──────¤
-> ⌈🚀╎سورس زينون╎🚀⌋
+> ⌈🚀╎سورس لينو╎🚀⌋
 > •اختار احدي الباقات في الاسفل
 > •اسعار الباقات تختلف
 > •يمكنك اختيار الباقة المناسبة لك
@@ -39,7 +39,7 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
 ╝───────────────¤
 *🚨:الرجاء الضغط علي زر الباقات*
 
-> Copyright © 2024 Elsony`,subtitle: "Elsony",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: Elsony } }, { upload: conn.waUploadToServer }, {quoted: m}))},nativeFlowMessage: { buttons: [
+> Copyright © 2024 Dazai🖤`,subtitle: "Elsony",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: Elsony } }, { upload: conn.waUploadToServer }, {quoted: m}))},nativeFlowMessage: { buttons: [
 
 
                             {
@@ -48,8 +48,8 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                                     title: '♪الــبــاقــات♪',
                                     sections: [
                                         {
-                                            title: 'مــرحـ🛡ـبــا بــك فـي سورس زينو🐢ــن بـ🤖ـوت',
-                                            highlight_label: 'ســــورس زينو🐢ــن',
+                                            title: 'مــرحـ🛡ـبــا بــك فـي سورس لينو بـ🤖ـوت',
+                                            highlight_label: 'ســــورس لينو',
                                             rows: [
                                                 {
                                                     header: '𝐒𝐔𝐁𝐒𝐂𝐑𝐈𝐏𝐓𝐈𝐎𝐍 𝐈𝐒 𝐅𝐑𝐄𝐄',
@@ -83,11 +83,11 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                 },
                 {
               name: "cta_url",
-               buttonParamsJson: '{"display_text":"⌈👾╎الـمـطـور╎👾⌋","url":"https://api.whatsapp.com/send?phone=+201061419002","merchant_url":"https://api.whatsapp.com/send?phone=+201061419002"}'
+               buttonParamsJson: '{"display_text":"⌈👾╎الـمـطـور╎👾⌋","url":"https://api.whatsapp.com/send?phone=+201061419002","merchant_url":"https://api.whatsapp.com/send?phone=+967778668253"}'
                      },
                      {
                name: "cta_url",
-               buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"https://chat.whatsapp.com/BrQVKh6Kt0X8LuMVWzW9XR","merchant_url":"https://chat.whatsapp.com/BrQVKh6Kt0X8LuMVWzW9XR"}'
+               buttonParamsJson: "}'
                             }
                         ]
                     }
