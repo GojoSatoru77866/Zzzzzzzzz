@@ -30,7 +30,7 @@ const mentionId = m.key.participant || m.key.remoteJid;
 
 conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { header: { title: `gataVidMenu`}, body: { text: `*• ──╾⊱﹝🖥﹞⊰╼── •*
 *مــرحــبــا بــك/ي* @${mentionId.split('@')[0]}
-`,subtitle: "PLUTO",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: PLUTO } }, { upload: conn.waUploadToServer }, {quoted: m}))},
+`,subtitle: "Lino ",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: PLUTO } }, { upload: conn.waUploadToServer }, {quoted: m}))},
                   contextInfo: {
                       mentionedJid: [m.sender],
                       isForwarded: false,
@@ -43,7 +43,7 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                                   title: '⌈💯╎معلومات البوت╎💯⌋',
                                   sections: [
                                       {
-                                          title: 'مــرحـ🛡ـبــا بــك فـي مــ☑هــام بلوتو بـ🤖ـوت',
+                                          title: 'مــرحـ🛡ـبــا بــك فـي مــ☑هــام لينو بـ🤖ـوت',
                                           highlight_label: 'بعبص براحتك يابرو 🤖',
                                           rows: [
                                               {
@@ -53,8 +53,8 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                                                   id: '.معلومه'
                                               },
                                               {
-                                                  header: 'معلومات عن محمد السوني',
-                                                  title: 'معلومات السوني',
+                                                  header: 'معلومات عن محمد',
+                                                  title: 'معلومات محمد',
                                                   description: '',
                                                   id: ''
                                               },
