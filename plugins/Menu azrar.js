@@ -25,25 +25,25 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
   let taguser = '@' + m.sender.split("@s.whatsapp.net")[0];
 await conn.sendMessage(m.chat, { react: { text: '📂', key: m.key } })
-const PLUTO = 'https://telegra.ph/file/5fc26caa7580823ce9dda.jpg'
+const PLUTO = 'https://i.ibb.co/Rp3FMRg/76bbbfeb3066.jpg'
 const mentionId = m.key.participant || m.key.remoteJid;
 
 conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { header: { title: `gataVidMenu`}, body: { text: `*• ──╾⊱﹝🖥﹞⊰╼── •*
 *مــرحــبــا بــك/ي* @${mentionId.split('@')[0]}
-╗──────¤مــعلـ🛖ـومــاتــك
+╗──────¤مــعلـ🧾ـومــاتــك
 > •مــســتــواك : ${level}
 > •بــريــمــيــوم : ${user.premiumTime > 0 ? 'مــمـ🔱ـيز' : (isPrems ? 'مــمـ🔱ـيز' : 'عــ🍁ــادي') || ''}
 > •رتــبــتــك : ${role}
 *• ──╾⊱﹝🖥﹞⊰╼── •*
 ╗───¤مــعلــومــات الــ🤖بــوت
-> إســم الــبــوت:بلـوتو 
-> •الــمــطــور :\nMohamed Elsony\n> FLEX-MD
+> إســم الــبــوت:لينو 
+> •الــمــطــور :\nNour Omar \n> Dazai🖤
 > •مــدة الــتــشــغــيل : ${uptime}
 *• ──╾⊱﹝🖥﹞⊰╼── •*
 *~⌬ تــ✍︎ــوقــيــع ↡~*🖋️
-*⌞🖥┊Pluto ス F.M.P┊🖥⌝*
+*⌞Dazai🖤⌝*
 *• ──╾⊱﹝🖥﹞⊰╼── •*
-> Copyright © 2024 Pluto`,subtitle: "PLUTO",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: PLUTO } }, { upload: conn.waUploadToServer }, {quoted: m}))},
+> Copyright © 2024 Lino `,subtitle: "PLUTO",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: PLUTO } }, { upload: conn.waUploadToServer }, {quoted: m}))},
                   contextInfo: {
                       mentionedJid: [m.sender],
                       isForwarded: false,
@@ -53,11 +53,11 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                           {
                               name: 'single_select',
                               buttonParamsJson: JSON.stringify({
-                                  title: '⌈🛡╎الــقــوائـــم╎🛡⌋',
+                                  title: '⌈⚕️╎الــقــوائـــم╎⚕️⌋',
                                   sections: [
                                       {
-                                          title: 'مــرحـ🛡ـبــا بــك فـي مــ☑هــام بلوتو بـ🤖ـوت',
-                                          highlight_label: 'بعبص براحتك يابرو 🤖',
+                                          title: 'مــرحـ🛡ـبــا بــك فـي مــ☑هــام لينو بـ🤖ـوت',
+                                          highlight_label: 'بعبص براحتك يامستخدم😊',
                                           rows: [
                                               {
                                                   header: 'الــقـ👑ـســم الـاول',
@@ -150,7 +150,7 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                    },
                    {
                       name: "quick_reply",
-            buttonParamsJson: '{"display_text":"مطورين","id":".المطور"}'
+            buttonParamsJson: '{"display_text":"مطور","id":".المطور"}'
                    },
                    {
                       name: "quick_reply",
@@ -158,7 +158,7 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                    },
                    {
              name: "cta_url",
-             buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"https://whatsapp.com/channel/0029Vag5dT01t90dVIah1X1p","merchant_url":"https://whatsapp.com/channel/0029Vag5dT01t90dVIah1X1p"}'
+             buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"https://whatsapp.com/channel/0029Vag5dT01t90dVIah1X1p","merchant_url":"https://whatsapp.com/channel/0029VapxAcz4SpkEe0XN6X3V"}'
                           }
                       ]
                   }
