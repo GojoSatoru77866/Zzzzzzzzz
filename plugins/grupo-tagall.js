@@ -8,7 +8,7 @@ let oi = `❐ رسالة : ${pesan}`
 let teks = `*┌───⊷﹝المنشن⊰⚜⊱الجماعي﹞+⊷*\n❏ نقابة : *${groupMetadata.subject}*\n${oi}\n❏ الاعضاء\n`
 for (let mem of participants) {
 teks += `┃⊹ @${mem.id.split('@')[0]}\n`}
-teks += `*Zenon↳🐢↲𝐁𝐎𝐓*\n`
+teks += `*Lino ↳⚕️↲𝐁𝐎𝐓*\n`
 teks += `*└──────────────────⊷*`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )  
 }
