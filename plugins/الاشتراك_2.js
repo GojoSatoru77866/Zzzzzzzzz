@@ -13,10 +13,10 @@ const handler = async (m, { conn }) => {
                     header: { title: 'Elsony' },
                     body: {
                         text: `━ ╼╃ ⌬〔﷽〕⌬ ╄╾ ━
-> PLUTO↳🐢↲𝐁𝐎𝐓
+> لينو بوت
 > 〔 الاشتراك الاسبوعي┊ ˼‏ 🚀˹ ↶〕
 *⋅ ───━ •﹝👑﹞• ━─── ⋅*
-            *🐢اشتراك بلوتو*
+            *⚕️اشتراك لينو*
 *⋅ ───━ •﹝👑﹞• ━─── ⋅*
 ╗───¤﹝السعر ↶ 💵﹞
 > •┊˹👾˼┊- رقم وهمي اسبوعيا
@@ -34,7 +34,7 @@ const handler = async (m, { conn }) => {
 ╝───────────────¤
 *⋅ ───━ •﹝👑﹞• ━─── ⋅*
 > 〔تـوقـيـع┊ ˼‏📜˹ 〕↶
-⌠PLUTO↳🐢↲𝐁𝐎𝐓⌡
+⌠Dazai🖤⌡
 *⋅ ───━ •﹝👑﹞• ━─── ⋅*`,
                         subtitle: "Elsony"
                     },
@@ -46,15 +46,15 @@ const handler = async (m, { conn }) => {
                         buttons: [
                             {
                                 name: "cta_url",
-                                buttonParamsJson: '{"display_text":"⌈🚀╎𝐁𝐔𝐘 ˹💰˼ 𝐍𝐎𝐖╎🚀⌋𝐄𝐋𝐒𝐎𝐍𝐘","url":"https://api.whatsapp.com/send?phone=+201061419002","merchant_url":"https://api.whatsapp.com/send?phone=+201020306059"}'
+                                buttonParamsJson: '{"display_text":"⌈🚀╎𝐁𝐔𝐘 ˹💰˼ 𝐍𝐎𝐖╎🚀⌋𝐄𝐋𝐒𝐎𝐍𝐘","url":"https://api.whatsapp.com/send?phone=+201061419002","merchant_url":"https://api.whatsapp.com/send?phone=+967778668253"}'
                             },
                             {
                                 name: "cta_url",
-                                    buttonParamsJson: '{"display_text":"⌈🚀╎𝐁𝐔𝐘 ˹💰˼ 𝐍𝐎𝐖 ╎🚀:𝐅𝐋𝐄𝐗⌋","url":"https://api.whatsapp.com/send?phone=+201020306059","merchant_url":"https://api.whatsapp.com/send?phone=+201020306059"}'
+                                    buttonParamsJson: '{"display_text":"⌈🚀╎𝐁𝐔𝐘 ˹💰˼ 𝐍𝐎𝐖 ╎🚀:𝐅𝐋𝐄𝐗⌋","url":"https://api.whatsapp.com/send?phone=+201020306059","merchant_url":"https://api.whatsapp.com/send?phone=+967778668253"}'
                                 },
                                 {
                                 name: "cta_url",
-                                buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"https://chat.whatsapp.com/BrQVKh6Kt0X8LuMVWzW9XR","merchant_url":"https://chat.whatsapp.com/BrQVKh6Kt0X8LuMVWzW9XR"}'
+                                buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"https://chat.whatsapp.com/BrQVKh6Kt0X8LuMVWzW9XR","merchant_url":"https://whatsapp.com/channel/0029VapxAcz4SpkEe0XN6X3V"}'
                             }
                         ]
                     }
