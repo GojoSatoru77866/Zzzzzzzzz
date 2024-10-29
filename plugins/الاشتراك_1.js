@@ -13,7 +13,7 @@ const handler = async (m, { conn }) => {
                     header: { title: 'Elsony' },
                     body: {
                         text: `━ ╼╃ ⌬〔﷽〕⌬ ╄╾ ━
-> Zenon↳🐢↲𝐁𝐎𝐓
+> لينو بوت
 > 〔 الاشتراك المجاني┊ ˼‏ 🚀˹ ↶〕
 *⋅ ───━ •﹝👑﹞• ━─── ⋅*
             *لينو بــ🤖ــوت*
